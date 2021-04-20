@@ -13,7 +13,7 @@ def DSAPMP():
     print("BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -59,10 +59,10 @@ def DSAPMP2():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print("BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -94,7 +94,7 @@ def DSAPMP2():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
@@ -107,10 +107,10 @@ def SNTKBK():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print("BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -142,7 +142,7 @@ def SNTKBK():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
@@ -158,7 +158,7 @@ def SNTKBK2():
     print("PRASOON BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -190,7 +190,7 @@ def SNTKBK2():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
@@ -203,10 +203,10 @@ def DSAART():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print("BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -238,7 +238,7 @@ def DSAART():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
@@ -251,10 +251,10 @@ def DSAART2():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print("BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -286,7 +286,7 @@ def DSAART2():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
@@ -301,10 +301,10 @@ def DBMSRKK():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print("BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -336,7 +336,7 @@ def DBMSRKK():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
@@ -350,10 +350,10 @@ def DBMSRKK2():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print(" BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -385,7 +385,7 @@ def DBMSRKK2():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
@@ -399,10 +399,10 @@ def COMPDS():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print("BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -434,7 +434,7 @@ def COMPDS():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print(" BOT left the class")
             break
         else:
             continue
@@ -447,10 +447,10 @@ def SNTMHC():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print("BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -482,7 +482,7 @@ def SNTMHC():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
@@ -496,10 +496,10 @@ def DBMSRKKLAB():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print(" BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print(" BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -531,7 +531,7 @@ def DBMSRKKLAB():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print(" BOT left the class")
             break
         else:
             continue
@@ -544,10 +544,10 @@ def DBMSNHB():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print(" BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print(" BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -579,7 +579,7 @@ def DBMSNHB():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print(" BOT left the class")
             break
         else:
             continue
@@ -593,10 +593,10 @@ def WENSPLAB():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print("BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -628,7 +628,7 @@ def WENSPLAB():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print(" BOT left the class")
             break
         else:
             continue
@@ -641,10 +641,10 @@ def DSAPMPLAB():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print("BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -676,7 +676,7 @@ def DSAPMPLAB():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
@@ -690,10 +690,10 @@ def COMRJNLAB():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print(" BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -725,7 +725,7 @@ def COMRJNLAB():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
@@ -739,10 +739,10 @@ def SGPBHP():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print(" BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -774,7 +774,7 @@ def SGPBHP():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
@@ -787,10 +787,10 @@ def HS():
     driver.find_element_by_id("openTeamsClientInBrowser").click()
     time.sleep(10)
 
-    print("PRASOON BOT: Looking for the join button")
+    print("BOT: Looking for the join button")
     c = 0
     while c <= 1:
-        print("PRASOON BOT is trying to join the meeting")
+        print("BOT is trying to join the meeting")
         time.sleep(2)
         joinbtn = driver.find_element_by_css_selector('button.ts-calling-join-button')
         if joinbtn == None:
@@ -822,7 +822,7 @@ def HS():
     while m <= 1:
         if time.strftime('%H:%M') == 'LECTURE ENDING TIME':
             driver.find_element_by_id("hangup-button").click()
-            print("PRASOON BOT left the class")
+            print("BOT left the class")
             break
         else:
             continue
